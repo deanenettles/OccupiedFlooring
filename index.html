@@ -38,7 +38,7 @@
 
         /* LINKS */
         a {text-decoration:none;}
-        .button {width:200px; margin:30px auto; background:#a30046; padding:10px 10px 7px 10px; border-radius:.75rem; color: white; font-weight:400; text-align:center;}
+        .button {width:200px; margin:30px auto; background:#a30046; padding:10px 10px 7px 10px; border-radius:.5rem; color: white; font-weight:400; text-align:center;}
         a:link.brochures, a:visited.brochures  {color:white;}
         a:hover.brochures, a:focus.brochures, a:active.brochures  {color:rgb(193, 192, 192);}
         .contact a:link, .contact a:visited {color:#a30046;}
@@ -46,10 +46,10 @@
 
 
         /* BROCHURES */
-        .brochures {display:block; height:200px; width:100%; background-color:white; margin-bottom:20px;}
-        .brochures article {width:100%; background-color:rgb(0, 0, 0, .50); padding:1px 0; position:relative; top:135px; left:0px;}
-        .freeflow {background-image:url("images/Free_Flow.png"); background-repeat: no-repeat; background-position:center center; background-size: cover; }
-        .remix {background-image:url("images/Remix_Remastered.png"); background-repeat: no-repeat; background-position:top center; background-size: cover; }
+        .brochures {display:block; height:250px; width:100%; background-color:white; margin-bottom:20px;}
+        .brochures article {width:100%; background-color:rgb(0, 0, 0, .50); padding:1px 0; position:relative; top:185px; left:0px;}
+        .freeflow {background-image:url("images/Free_Flow.png"); background-repeat: no-repeat; background-position:top left; background-size: cover; }
+        .remix {background-image:url("images/Remix_Remastered.png"); background-repeat: no-repeat; background-position:top right; background-size: cover; }
         
         @media screen and (min-width: 730px) {
             aside {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between; margin:0 0 10px 0;}
@@ -60,6 +60,8 @@
             .brochures {display:block; height:200px; width:48%; background-color:white; margin-bottom:0;}
             .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-between; margin-top:10px; }
             .contact h2 {text-align:left;}
+            .brochures {height:250px;}
+            .brochures article {top:185px}
         }
 
     </style>
