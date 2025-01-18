@@ -1,0 +1,69 @@
+        html {
+            box-sizing: border-box;             
+            padding:0; margin:0;
+            font-size:1.25rem;
+            }
+            *, *:before, *:after {
+            box-sizing: inherit;
+            }
+
+        main {padding:30px; max-width:900px; margin:0 auto;}
+        main img {display:block; margin:0 auto; width:75%; max-width:400px;}
+        div.products {background-color:rgb(230, 230, 230); padding:20px 30px; margin-top:30px; border-radius:.75rem;}
+        aside {display:flex; flex-direction: column; flex-wrap:wrap; justify-content: space-between; margin:0 0 10px 0;}
+        .info {display:flex; flex-direction: column; flex-wrap:wrap; justify-content: space-between; margin-top:10px;}
+        .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-between; margin-top:10px; }   
+        article {width:100%; text-align:center;}
+        .products {text-align:center;}
+        .contact {background-color:rgb(230, 230, 230); padding:20px 30px; margin-top:30px; border-radius:.75rem; width:100%}
+        .text {width:100%;}
+
+        .logo {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: center; gap:4rem; margin-top:10px; align-items: center;}
+        .bwan, .milliken, .osf {padding:10px;}
+        .bar {background-color:#32407b; padding:10px 10px 0 10px;}
+        .bwam {background-color:#32407b; width:300px;  padding:10px; margin:0 auto;}
+        .milliken {width:250px;}
+        .osf {width:300px;}
+    
+
+        /* TEXT STYLES */
+        body {font-family: "League Spartan", serif;font-optical-sizing: auto; font-weight: 250;font-style: normal;}
+        h1{text-align:center;}
+        h2 {margin-bottom:.5rem;}
+        .products h2 {margin-top:5px;}
+        .products .nodrop {margin-top:0;}
+        .contact {font-weight:350;}
+        .contact h2 {text-align:center;}
+
+        /* LINKS */
+        a {text-decoration:none;}
+        .button {width:250px; margin:30px auto; background:#32407b; padding:10px 20px 7px 20px; border-radius:.5rem; color: white; font-weight:400; text-align:center;}
+        .button:hover, .button:focus, .button:active {background-color:gray;}
+        a:link.brochures, a:visited.brochures  {color:white;}
+        a:hover.brochures, a:focus.brochures, a:active.brochures  {color:rgb(193, 192, 192);}
+        a:link.mainlink, a:visited.mainlink {color:#344cae;}
+        a:hover.mainlink, a:focus.mainlink, a:active.mainlink {color:red;}
+
+
+        /* BROCHURES */
+        .brochures {display:block; height:250px; width:100%; background-color:white; margin-bottom:20px;}
+        .brochures article {width:100%; background-color:rgb(0, 0, 0, .50); padding:1px 0; position:relative; top:185px; left:0px;}
+        .freeflow {background-image:url("images/Free_Flow.png"); background-repeat: no-repeat; background-position:top left; background-size: cover; }
+        .remix {background-image:url("images/Remix_Remastered.png"); background-repeat: no-repeat; background-position:top right; background-size: cover; }
+        
+        @media screen and (min-width:600px) {
+               .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-around; margin-top:10px; }
+        }
+        
+        @media screen and (min-width: 730px) {
+            aside {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between; margin:0 0 10px 0;}
+            .info {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between; margin-top:10px;} 
+            article {width:49%; text-align:center;}
+            .text {width:65%;}
+            .contact {background-color:rgb(230, 230, 230); padding:20px 30px; margin-top:30px; border-radius:.75rem; width:32.5%}
+            .brochures {display:block; height:200px; width:48%; background-color:white; margin-bottom:0;}
+            .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-between; margin-top:10px; }
+            .contact h2 {text-align:left;}
+            .brochures {height:250px;}
+            .brochures article {top:185px}
+        }
