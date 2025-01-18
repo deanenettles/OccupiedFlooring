@@ -48,8 +48,8 @@
         /* BROCHURES */
         .brochures {display:block; height:250px; width:100%; background-color:white; margin-bottom:20px;}
         .brochures article {width:100%; background-color:rgb(0, 0, 0, .50); padding:1px 0; position:relative; top:185px; left:0px;}
-        .freeflow {background-image:url("images/Free_Flow.png"); background-repeat: no-repeat; background-position:top left; background-size: cover; }
-        .remix {background-image:url("images/Remix_Remastered.png"); background-repeat: no-repeat; background-position:top right; background-size: cover; }
+        .freeflow {background-image:url("../images/Free_Flow.png"); background-repeat: no-repeat; background-position:top left; background-size: cover; }
+        .remix {background-image:url("../images/Remix_Remastered.png"); background-repeat: no-repeat; background-position:top right; background-size: cover; }
         
         @media screen and (min-width:600px) {
                .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-around; margin-top:10px; }
