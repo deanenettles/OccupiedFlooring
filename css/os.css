@@ -1,5 +1,5 @@
         html {
-            box-sizing: border-box;             
+            box-sizing: border-box;
             padding:0; margin:0;
             font-size:1.25rem;
             }
@@ -12,7 +12,7 @@
         div.products {background-color:rgb(230, 230, 230); padding:20px 30px; margin-top:30px; border-radius:.75rem;}
         aside {display:flex; flex-direction: column; flex-wrap:wrap; justify-content: space-between; margin:0 0 10px 0;}
         .info {display:flex; flex-direction: column; flex-wrap:wrap; justify-content: space-between; margin-top:10px;}
-        .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-between; margin-top:10px; }   
+        .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-between; margin-top:10px; }
         article {width:100%; text-align:center;}
         .products {text-align:center;}
         .contact {background-color:rgb(230, 230, 230); padding:20px 30px; margin-top:30px; border-radius:.75rem; width:100%}
@@ -24,7 +24,6 @@
         .bwam {background-color:#32407b; width:300px;  padding:10px; margin:0 auto;}
         .milliken {width:250px;}
         .osf {width:300px;}
-    
 
         /* TEXT STYLES */
         body {font-family: "League Spartan", serif;font-optical-sizing: auto; font-weight: 250;font-style: normal;}
@@ -44,20 +43,19 @@
         a:link.mainlink, a:visited.mainlink {color:#344cae;}
         a:hover.mainlink, a:focus.mainlink, a:active.mainlink {color:red;}
 
-
         /* BROCHURES */
         .brochures {display:block; height:250px; width:100%; background-color:white; margin-bottom:20px;}
         .brochures article {width:100%; background-color:rgb(0, 0, 0, .50); padding:1px 0; position:relative; top:185px; left:0px;}
         .freeflow {background-image:url("../images/Free_Flow.png"); background-repeat: no-repeat; background-position:top left; background-size: cover; }
         .remix {background-image:url("../images/Remix_Remastered.png"); background-repeat: no-repeat; background-position:top right; background-size: cover; }
-        
+
         @media screen and (min-width:600px) {
                .names {display:flex; flex-direction: row; flex-wrap:wrap; justify-content:space-around; margin-top:10px; }
         }
-        
+
         @media screen and (min-width: 730px) {
             aside {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between; margin:0 0 10px 0;}
-            .info {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between; margin-top:10px;} 
+            .info {display:flex; flex-direction: row; flex-wrap:wrap; justify-content: space-between; margin-top:10px;}
             article {width:49%; text-align:center;}
             .text {width:65%;}
             .contact {background-color:rgb(230, 230, 230); padding:20px 30px; margin-top:30px; border-radius:.75rem; width:32.5%}
